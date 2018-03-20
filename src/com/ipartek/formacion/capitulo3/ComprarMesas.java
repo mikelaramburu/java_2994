@@ -7,14 +7,12 @@ public class ComprarMesas {
 		System.out.println("****************");
 
 		Mesa m1 = new Mesa();
-		Mesa m2 = new Mesa(1);
-		Mesa m3 = new Mesa(-3);
 
-		m1.setNumeroPatas(-2);
+		// Mesa m3 = new Mesa(-3);
 
 		System.out.println(m1.toString());
 		System.out.println(m1);
-		System.out.println(m2);
+
 	}
 
 }
